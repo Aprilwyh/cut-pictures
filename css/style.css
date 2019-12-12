@@ -1,0 +1,192 @@
+html,BODY {
+	SCROLLBAR-FACE-COLOR: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #e1e1e1; SCROLLBAR-SHADOW-COLOR: #e1e1e1; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #e1e1e1
+}
+table{
+    font-size:9pt;
+}
+td{
+    font-size:9pt;
+}
+select{
+    font-size:9pt;
+}
+
+/* Style for in-page header of the generated rowset pages */
+.pagehead
+{
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+/*数据表格的宽度*/
+.gridStyle-table{
+    BACKGROUND:#f3f3f3;
+    filter:progid:DXImageTransform.Microsoft.Shadow(Color=#CCCCFF,Direction=120,strength=5);
+    border-collapse:collapse;
+    
+
+}
+.gridStyle-tr-header td{
+    padding:2px;
+    border:1px solid #999;
+}
+.gridStyle-tr-data td{
+    padding:2px;
+    border:1px solid #999;
+}
+/* Default grid header and footer style for generated rowset pages */
+.gridStyle-tr-header{
+    background-color: #F8F9E4;
+    font-weight:bold;
+    color: #555588;
+    font-size: 9pt;
+    text-align: center;
+    /*vertical-align: baseline;*/
+    height:23px;
+    background-image:url(/HRMIS/resources/images/ice.gif);
+}
+.gridStyle-tr-header a{
+    color: #000000;
+    font-size: 9pt;
+}
+.gridStyle-tr-header a:hover{
+    color: #F68D79;
+    font-size: 9pt;
+}
+.gridStyle-tr-footer
+{
+    height:0px;
+
+}
+
+
+/* Grid base row default style for generated rowset pages */
+.gridStyle-tr-data
+{
+    BORDER:1px solid #000;
+    BORDER-WIDTH:0px 0px 1px 1px;
+    background-color: #FDFDF5;
+    color: #111111;
+    font-size: 9pt;
+    text-align: left;
+
+}
+
+
+/* Grid alternate row default style for generated rowset pages */
+.gridStyle-tr-alt-data
+{
+    background-color: #Ffffff;
+    color: #111111;
+    font-size: 9pt;
+    text-align: left;
+    border-color: #999999;
+    border-style: solid;
+    border-width: 0px;
+    padding-left: 0px;
+}
+
+.tableFrame{
+    -moz-box-shadow: 3px 3px 4px #F68E78;
+    -webkit-box-shadow: 3px 3px 4px #F68E78;
+    box-shadow: 3px 3px 4px #F68E78;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=120, Color='#F68E78')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=120, Color='#F68E78');
+    background-color: #999999; 
+}
+.tableHeader{
+
+    background-color: #F8F9E4;
+    color: #555588;
+    font-size:11pt;
+    text-align: center;
+    /*vertical-align: baseline;*/
+    height:25px;
+    font-weight:bold;
+    background-image:url(/HRMIS/resources/images/ice.gif)
+}
+/* Table row style referenced in generated various generated pages */
+.tablebody
+{
+     background-color: #FDFDF5; 
+    color: #111111;
+    font-size: 9pt;
+    text-align: left;
+    /*vertical-align: middle;*/
+    /*padding: 5px 10px 5px 10px;*/
+    /*background-image:url(/HRMIS/resources/images/ice2.gif);*/
+}
+.tablebody-alt
+{
+     background-color: #Fff; 
+    color: #111111;
+    font-size: 9pt;
+    text-align: left;
+    /*vertical-align: middle;*/
+    /*padding: 5px 10px 5px 10px;*/
+    /*background-image:url(/HRMIS/resources/images/ice2.gif);*/
+}
+.button1 {
+	BORDER-RIGHT: #665b8e 1px solid;
+    PADDING-RIGHT: 1px; 
+    BORDER-TOP: #ffffff 1px solid; 
+    PADDING-LEFT: 1px; 
+    FONT-SIZE: 12px; 
+    BACKGROUND: buttonface; 
+    PADDING-BOTTOM: 1px; 
+    BORDER-LEFT: #ffffff 1px solid; 
+    CURSOR: pointer; COLOR: #333333; 
+    PADDING-TOP: 1px; 
+    BORDER-BOTTOM: #665b8e 1px solid; 
+    FONT-FAMILY: "MS Shell Dlg", "Tahoma", "宋体"; 
+    HEIGHT: 20px
+}
+/*绿*/
+.input_btn1 {
+	BORDER-RIGHT: #8fc16f 1px solid; BORDER-TOP: #8fc16f 1px solid; FONT-WEIGHT: bolder; FONT-SIZE: 12px; BACKGROUND: url(/HRMIS/resources/images/btn1.gif) repeat-x; BORDER-LEFT: #8fc16f 1px solid; WIDTH: 76px; CURSOR: pointer; COLOR: #660; PADDING-TOP: 4px; BORDER-BOTTOM: #8fc16f 1px solid; HEIGHT: 29px
+}
+/*灰*/
+.input_btn2 {
+	BORDER-RIGHT: #BCBABA 1px solid; BORDER-TOP: #BCBABA 1px solid; FONT-WEIGHT: bolder; FONT-SIZE: 12px; BACKGROUND: url(/HRMIS/resources/images/btn5.gif) repeat-x; BORDER-LEFT: #BCBABA 1px solid; WIDTH: 120px; CURSOR: pointer; COLOR: #000; PADDING-TOP: 4px; BORDER-BOTTOM: #BCBABA 1px solid; HEIGHT: 29px
+}
+/*蓝小*/
+.input_btn3 {
+	BORDER-RIGHT: #58b1d9 1px solid; BORDER-TOP: #58b1d9 1px solid; BACKGROUND: url(/HRMIS/resources/images/btn2.gif) repeat-x; BORDER-LEFT: #58b1d9 1px solid; WIDTH: 40px; CURSOR: pointer; COLOR: #060;  BORDER-BOTTOM: #58b1d9 1px solid; HEIGHT: 20px
+}
+/*红*/
+.input_btn4 {
+	BORDER-RIGHT: #D8726E 1px solid; BORDER-TOP: #D8726E 1px solid; FONT-WEIGHT: bolder; FONT-SIZE: 12px; BACKGROUND: url(/HRMIS/resources/images/btn4.gif) repeat-x; BORDER-LEFT: #D8726E 1px solid; WIDTH: 120px; CURSOR: pointer; COLOR: #630; PADDING-TOP: 4px; BORDER-BOTTOM: #D8726E 1px solid; HEIGHT: 29px
+}
+/*蓝*/
+.input_btn5 {
+	BORDER-RIGHT: #BCBABA 1px solid; BORDER-TOP: #BCBABA 1px solid; FONT-WEIGHT: bolder; FONT-SIZE: 12px; BACKGROUND: url(/HRMIS/resources/images/btn5.gif) repeat-x; BORDER-LEFT: #BCBABA 1px solid; WIDTH: 120px; CURSOR: pointer; COLOR: #000; PADDING-TOP: 4px; BORDER-BOTTOM: #BCBABA 1px solid; HEIGHT: 29px
+}
+.input_btn9 {
+	BORDER-RIGHT: #58b1d9 1px solid; BORDER-TOP: #58b1d9 1px solid; FONT-WEIGHT: bolder; FONT-SIZE: 12px; BACKGROUND: url(/HRMIS/resources/images/btn2.gif) repeat-x; BORDER-LEFT: #58b1d9 1px solid; WIDTH: 120px; CURSOR: pointer; COLOR: #060; PADDING-TOP: 4px; BORDER-BOTTOM: #58b1d9 1px solid; HEIGHT: 29px
+}
+.reg_btn2 {
+	MARGIN-TOP: 3px; FONT-WEIGHT: bolder; FONT-SIZE: 14px; WIDTH: 159px; CURSOR: pointer; COLOR: #333; PADDING-TOP: 6px; HEIGHT: 36px
+}
+
+.inputWidth{
+    width:30px;
+}
+
+
+.bigFont{
+    font-size:14px;
+}
+.font1{
+    color:#ff0000;
+
+}
+.font2{
+    color:#ff0000;
+    font-family:Verdana, Geneva, Tahoma, Arial, sans-serif;
+    font-size:9px;
+}
+.scroll {
+	SCROLLBAR-FACE-COLOR: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #dddddd; SCROLLBAR-SHADOW-COLOR: white; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #006699; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #dddddd
+}
